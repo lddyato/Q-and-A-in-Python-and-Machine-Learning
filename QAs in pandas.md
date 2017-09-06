@@ -21,6 +21,6 @@ Instead, the median and the quartiles are calculated directly from the data. Thu
 
 # select all the columns which dtypes='object'
 
-`df.select_dtypes(include=['object']).columns` returns the column names which dtype is object
-`df.select_dtypes(include=['object'])` returns the dataframe containing all the object-type columns
-`df.select_dtypes(exclude=['object']).columns` returns the column names which dtype is not object
+* `df.select_dtypes(include=['object']).columns` returns the column names which dtype is object
+* `df.select_dtypes(include=['object'])` returns the dataframe containing all the object-type columns
+* `df.select_dtypes(exclude=['object']).columns` returns the column names which dtype is not object
